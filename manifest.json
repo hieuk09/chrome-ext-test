@@ -1,0 +1,14 @@
+{
+  "name": "RSS fetcher",
+  "version": "1.0",
+  "description": "fetch RSS from mangaupdates.com",
+  "homepage_url": "http://www.mangaupdates.com/",
+  "background_page": "background.html",
+  "permissions": ["http://www.mangaupdates.com/rss.php"],
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.jpg",
+    "default_popup": "popup.html",
+    "default_title": "RSS fetcher"
+  }
+}
